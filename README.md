@@ -6,7 +6,7 @@ void updateHarga(Barang *b, int hargaBaru) {
 2.Dibuat fungsi updateNama dengan parameter pointer Barang dan nama baru. Nama berupa array karakter, jadi tidak bisa diganti dengan tanda =. Penggantiannya memakai strcpy dari <string.h>.
 void updateNama(Barang *b, char namaBaru[]) {
     strcpy(b->nama, namaBaru);
-}
+} \n
 3.Pada beliBarang, setelah total dihitung, program memeriksa dulu apakah m bukan NULL, baru memeriksa m->poin >= 1000. Jika ya, total dikurangi 10% dan poin member dikurangi 1000 lewat pointer.
 int total = b->harga * qty;
 if (m != NULL && m->poin >= 1000) {
