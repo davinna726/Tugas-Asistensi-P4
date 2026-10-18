@@ -1,6 +1,6 @@
 # Tugas-Asistensi-P4
 1.Dibuat fungsi updateHarga yang menerima pointer ke Barang dan harga baru. Karena yang dikirim adalah alamat barang (pass by reference), fungsi mengubah harga di data aslinya lewat operator panah, sehingga perubahannya tetap ada setelah fungsi selesai.
-‘’’
+‘’’c
 void updateHarga(Barang *b, int hargaBaru) {
     b->harga = hargaBaru;
 }
