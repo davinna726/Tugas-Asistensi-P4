@@ -4,7 +4,7 @@
 void updateHarga(Barang *b, int hargaBaru) { 
     b->harga = hargaBaru; 
 }
-
+```
 
 2.Dibuat fungsi updateNama dengan parameter pointer Barang dan nama baru. Nama berupa array karakter, jadi tidak bisa diganti dengan tanda =. Penggantiannya memakai strcpy dari <string.h>.
 void updateNama(Barang *b, char namaBaru[]) {
